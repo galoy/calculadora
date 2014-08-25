@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="283.0" prefWidth="210.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="15.0" layoutY="6.0" text="Nombre De Usuario" />
+      <TextField fx:id="tf_nombre" layoutX="70.0" layoutY="23.0" prefHeight="25.0" prefWidth="131.0" />
+      <Button fx:id="btn4" layoutX="14.0" layoutY="143.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="28.0" text="4" />
+      <Button fx:id="btn3" layoutX="96.0" layoutY="108.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="28.0" text="3" />
+      <Button fx:id="btn2" layoutX="53.0" layoutY="108.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="28.0" text="2" />
+      <Button fx:id="btn6" layoutX="96.0" layoutY="143.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="28.0" text="6" />
+      <Button fx:id="btn5" layoutX="53.0" layoutY="143.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="28.0" text="5" />
+      <Button fx:id="btn7" layoutX="14.0" layoutY="176.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="28.0" text="7" />
+      <Button fx:id="btn8" layoutX="53.0" layoutY="176.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="28.0" text="8" />
+      <Button fx:id="btn9" layoutX="96.0" layoutY="176.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="28.0" text="9" />
+      <Button fx:id="btnporcentage" layoutX="53.0" layoutY="211.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="28.0" text="\%" />
+      <Button fx:id="btn1" layoutX="14.0" layoutY="108.0" mnemonicParsing="false" onAction="accionboton" prefHeight="25.0" prefWidth="28.0" text="1" />
+      <Button fx:id="btnpunto" layoutX="96.0" layoutY="211.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="28.0" text="." />
+      <Button fx:id="btn0" layoutX="14.0" layoutY="211.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="28.0" text="0" />
+      <Button fx:id="btndivicion" layoutX="142.0" layoutY="108.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="40.0" text="/" />
+      <Button fx:id="btnmultiplicacion" layoutX="142.0" layoutY="143.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="40.0" text="*" />
+      <Button fx:id="btnresta" layoutX="142.0" layoutY="176.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="40.0" text="-" />
+      <Button fx:id="btnsuma" layoutX="142.0" layoutY="211.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="40.0" text="+" />
+      <Button fx:id="btnresultado" layoutX="67.0" layoutY="244.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="47.0" text="=" />
+      <Separator layoutX="3.0" layoutY="93.0" prefWidth="200.0" />
+      <TextArea fx:id="tb_caja" layoutX="3.0" layoutY="56.0" prefHeight="37.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
